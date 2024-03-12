@@ -16,6 +16,7 @@ contract ZombieFactory {
 
     mapping (uint => address) public zombieToOwner;
     mapping (address => uint) ownerZombieCount;
+    mapping (string => bool) public zombieNameExists;
 
     function _createZombie(string memory _name, uint _dna) internal {
         uint id = zombies.push(Zombie(_name, _dna)) - 1;
@@ -30,9 +31,11 @@ contract ZombieFactory {
     }
 
     function createRandomZombie(string memory _name) public {
+        require(!zombieNameExists[_name], "Este nombre ya está en uso");
         //require(ownerZombieCount[msg.sender] == 0);
         uint randDna = _generateRandomDna(_name);
         randDna = randDna - randDna % 100;
         _createZombie(_name, randDna);
+         zombieNameExists[_name] = true;
     }
 }

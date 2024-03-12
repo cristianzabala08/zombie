@@ -43,7 +43,7 @@
 
 // require('dotenv').config();
 // const { MNEMONIC, PROJECT_ID } = process.env;
-const privateKeys = ['0x494f0f51e1b2d384f4c3c820ae95cb3acc8315619751cdf8c8022fa9ea0cb438']
+const privateKeys = ['0xa938c424d9a8e988e98ca355551e4b04eb70c71019d9b3da42aa8057b1b66350']
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
