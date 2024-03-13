@@ -38,4 +38,8 @@ contract ZombieFactory {
         _createZombie(_name, randDna);
          zombieNameExists[_name] = true;
     }
+
+    function checkIfZombieNameExists(string memory _name) public view returns (bool) {
+        return zombieNameExists[_name];
+    }
 }
