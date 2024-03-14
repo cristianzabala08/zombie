@@ -4116,12 +4116,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x8A06274175Dbf4ac4A17340b0860edb98a248299",
-      "transactionHash": "0xc96bc491be5fe8136f1da9e7b26ce30471b2bf08800e95a733f54d0c5090de54"
+      "address": "0x876375EF4a09b6472CA16b9d87B82089F8430a7e",
+      "transactionHash": "0x0407c10cc5fb0ebe981b5fd772dda67fcee3804323819a0b883cfa779b899923"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-03-13T03:10:06.348Z",
+  "updatedAt": "2024-03-13T15:43:41.582Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

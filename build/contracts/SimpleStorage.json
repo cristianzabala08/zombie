@@ -605,12 +605,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x6d2b7c5A14205aF24F2a59fa4851B85da3a65896",
-      "transactionHash": "0x6c22788f6e16dfd2c68c0712f32e3c6642dd92de1aac453bc505567b281313d3"
+      "address": "0x552A3F45aeF314ED18d3ddE4DBF318Acfa5285eF",
+      "transactionHash": "0x52e53c043893479292df537577ec927ffe23dee95173ed43b09984e6efea9196"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-03-13T03:10:06.339Z",
+  "updatedAt": "2024-03-13T15:43:41.590Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
